@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main id="mn">
+        <header>
+            <h1>Audio Player</h1>
+            <p id="para">Radio 1</p>
+        </header>
+        <div id="content">
+            <article id="g">
+              <img src="images/back.png" alt="" id="back">
+              <img src="images/play.png" id="pl" alt="">
+              <img src="images/next.png" alt="" id="next">
+              <audio src="images/audio.mp3" id="aud"></audio>
+            </article>
+            <br>
+            <article id="inpui">
+                <input type="range" id="vol">
+                <h2>volume</h2>
+                <input type="range" id="spd" max="100" min="0">
+                <h2>speed</h2>
+            </article>
+            <article id="color">
+                <button id="color1"></button>
+                <button id="color2"></button>
+                <button id="color3"></button>
+                <button id="color4"></button>
+            </article>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
